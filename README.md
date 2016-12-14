@@ -16,3 +16,60 @@ The outside walls are always built such that the 2 openings are
   at the bottom-right most horizontal wall.
 
 The maze is then built by randomly ordering the available inside edges, and building them one by one if the two points it connects are not already connected by other edges.
+
+## Sample Run:
+```
+How many rows? 25
+How many columns? 20
+o  o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o
+|  |     |           |  |           |                 |  |  |
+o  o  o==o==o==o==o  o  o==o  o  o==o==o==o==o==o==o  o  o  o  
+|        |        |  |        |     |           |  |  |  |  |  
+o==o==o  o==o  o  o  o==o==o  o  o==o==o==o==o  o  o  o  o  o  
+|           |  |     |        |     |     |                 |  
+o==o==o==o  o  o==o  o  o  o==o  o  o==o  o  o==o==o  o==o==o  
+|     |     |  |  |     |     |  |        |  |     |        |  
+o==o  o==o  o==o  o  o==o==o==o  o==o==o==o==o  o  o  o==o  o  
+|  |        |           |  |        |     |     |     |     |
+o  o  o==o  o  o  o  o==o  o==o==o==o  o==o==o  o==o==o  o==o
+|  |  |        |  |           |     |  |        |  |  |     |
+o  o==o==o==o==o==o==o==o==o  o  o==o  o==o==o  o  o  o  o==o
+|     |  |  |              |           |        |  |     |  |
+o==o  o  o  o==o==o  o  o  o  o==o==o==o==o  o==o  o  o==o  o
+|  |     |     |     |  |        |                 |     |  |
+o  o==o  o==o  o==o==o==o==o  o  o==o  o==o==o==o==o==o  o  o
+|        |  |        |  |     |        |        |        |  |
+o  o==o  o  o  o  o  o  o  o  o  o==o==o  o==o==o  o  o==o  o
+|  |        |  |  |        |  |                 |  |        |
+o  o  o  o  o  o  o==o==o  o==o==o==o  o  o  o==o==o==o==o==o
+|  |  |  |     |  |           |        |  |  |  |  |        |
+o==o  o  o==o  o  o==o==o  o==o  o==o==o==o  o  o  o  o==o  o
+|     |     |  |        |  |           |  |     |     |     |
+o==o==o==o==o  o==o==o==o==o==o==o==o  o  o==o==o==o  o  o==o
+|              |        |                    |     |  |     |
+o==o  o  o==o==o  o  o==o  o==o==o==o==o==o  o==o  o  o==o  o
+|     |        |  |     |     |        |     |        |  |  |
+o  o  o==o==o==o  o==o==o==o  o==o==o  o  o==o==o==o  o  o  o
+|  |  |  |     |                 |                    |  |  |
+o  o  o  o  o==o  o==o==o  o==o==o==o==o==o==o==o==o  o  o==o
+|  |           |  |        |     |     |              |     |
+o==o==o==o==o==o==o==o==o==o  o==o==o  o==o  o  o==o==o==o  o
+|  |           |  |     |  |     |     |     |  |     |  |  |
+o  o  o  o  o==o  o  o  o  o==o  o  o==o==o==o  o  o==o  o  o
+|  |  |  |           |  |        |     |  |                 |
+o  o  o==o==o  o==o==o==o==o==o  o  o==o  o  o==o==o  o==o==o
+|     |  |           |  |                       |           |
+o  o==o  o  o==o  o  o  o  o  o  o  o==o==o==o==o==o==o==o  o
+|        |     |  |  |     |  |  |     |                    |
+o==o==o  o==o  o  o==o==o==o  o==o==o==o  o==o  o==o  o==o==o
+|  |     |     |  |  |                 |  |        |        |
+o  o==o==o==o  o==o  o==o==o==o==o==o==o  o==o==o==o==o  o==o
+|  |     |     |                 |     |     |  |        |  |
+o  o  o==o  o==o  o  o  o==o==o==o==o  o  o  o  o==o==o==o  o
+|                 |  |  |  |              |  |           |  |
+o  o  o==o==o==o  o  o  o  o==o  o  o==o==o==o==o==o==o  o  o
+|  |     |        |  |           |           |              |
+o==o==o  o==o  o  o  o==o==o  o==o==o  o==o  o==o==o==o  o==o
+|           |  |  |     |        |        |                 |
+o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o  o
+```
