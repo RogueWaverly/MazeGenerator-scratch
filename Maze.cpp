@@ -39,9 +39,7 @@ void Maze::makeMaze()
 
 	srand(time(NULL));
 	for(int i=0; i<edgeCount; i++)
-	{
 		decideToBuild(nextEdge());
-	}
 }
 
 void Maze::printMaze()
@@ -182,13 +180,13 @@ void Maze::printHRow(int row)
 {
 	for(int i=0; i<columns; i++)
 	{
-		std::cout << "o";
+		std::cout << "+";
 		if(HMaze[row][i]->build)
-			std::cout << "==";
+			std::cout << "~~";
 		else
 			std::cout << "  ";
 	}
-	std::cout << "o\n";
+	std::cout << "+\n";
 }
 
 void Maze::printVRow(int row)
