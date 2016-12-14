@@ -19,57 +19,47 @@ The maze is then built by randomly ordering the available inside edges, and buil
 
 ## Sample Run:
 ```
-How many rows? 25
-How many columns? 20
-o  o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o
-|  |     |           |  |           |                 |  |  |
-o  o  o==o==o==o==o  o  o==o  o  o==o==o==o==o==o==o  o  o  o  
-|        |        |  |        |     |           |  |  |  |  |  
-o==o==o  o==o  o  o  o==o==o  o  o==o==o==o==o  o  o  o  o  o  
-|           |  |     |        |     |     |                 |  
-o==o==o==o  o  o==o  o  o  o==o  o  o==o  o  o==o==o  o==o==o  
-|     |     |  |  |     |     |  |        |  |     |        |  
-o==o  o==o  o==o  o  o==o==o==o  o==o==o==o==o  o  o  o==o  o  
-|  |        |           |  |        |     |     |     |     |
-o  o  o==o  o  o  o  o==o  o==o==o==o  o==o==o  o==o==o  o==o
-|  |  |        |  |           |     |  |        |  |  |     |
-o  o==o==o==o==o==o==o==o==o  o  o==o  o==o==o  o  o  o  o==o
-|     |  |  |              |           |        |  |     |  |
-o==o  o  o  o==o==o  o  o  o  o==o==o==o==o  o==o  o  o==o  o
-|  |     |     |     |  |        |                 |     |  |
-o  o==o  o==o  o==o==o==o==o  o  o==o  o==o==o==o==o==o  o  o
-|        |  |        |  |     |        |        |        |  |
-o  o==o  o  o  o  o  o  o  o  o  o==o==o  o==o==o  o  o==o  o
-|  |        |  |  |        |  |                 |  |        |
-o  o  o  o  o  o  o==o==o  o==o==o==o  o  o  o==o==o==o==o==o
-|  |  |  |     |  |           |        |  |  |  |  |        |
-o==o  o  o==o  o  o==o==o  o==o  o==o==o==o  o  o  o  o==o  o
-|     |     |  |        |  |           |  |     |     |     |
-o==o==o==o==o  o==o==o==o==o==o==o==o  o  o==o==o==o  o  o==o
-|              |        |                    |     |  |     |
-o==o  o  o==o==o  o  o==o  o==o==o==o==o==o  o==o  o  o==o  o
-|     |        |  |     |     |        |     |        |  |  |
-o  o  o==o==o==o  o==o==o==o  o==o==o  o  o==o==o==o  o  o  o
-|  |  |  |     |                 |                    |  |  |
-o  o  o  o  o==o  o==o==o  o==o==o==o==o==o==o==o==o  o  o==o
-|  |           |  |        |     |     |              |     |
-o==o==o==o==o==o==o==o==o==o  o==o==o  o==o  o  o==o==o==o  o
-|  |           |  |     |  |     |     |     |  |     |  |  |
-o  o  o  o  o==o  o  o  o  o==o  o  o==o==o==o  o  o==o  o  o
-|  |  |  |           |  |        |     |  |                 |
-o  o  o==o==o  o==o==o==o==o==o  o  o==o  o  o==o==o  o==o==o
-|     |  |           |  |                       |           |
-o  o==o  o  o==o  o  o  o  o  o  o  o==o==o==o==o==o==o==o  o
-|        |     |  |  |     |  |  |     |                    |
-o==o==o  o==o  o  o==o==o==o  o==o==o==o  o==o  o==o  o==o==o
-|  |     |     |  |  |                 |  |        |        |
-o  o==o==o==o  o==o  o==o==o==o==o==o==o  o==o==o==o==o  o==o
-|  |     |     |                 |     |     |  |        |  |
-o  o  o==o  o==o  o  o  o==o==o==o==o  o  o  o  o==o==o==o  o
-|                 |  |  |  |              |  |           |  |
-o  o  o==o==o==o  o  o  o  o==o  o  o==o==o==o==o==o==o  o  o
-|  |     |        |  |           |           |              |
-o==o==o  o==o  o  o  o==o==o  o==o==o  o==o  o==o==o==o  o==o
-|           |  |  |     |        |        |                 |
-o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o  o
+How many rows? 20
+How many columns? 30
+o  o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o
+|     |              |           |  |  |              |           |                 |     |
+o==o  o==o  o==o==o==o==o==o==o  o  o  o  o==o==o==o  o==o==o==o  o  o==o  o==o  o==o  o==o
+|        |  |     |        |  |  |           |  |     |     |        |  |  |     |     |  |
+o==o==o  o  o==o  o  o==o==o  o  o==o==o  o==o  o==o  o  o  o  o  o==o  o==o==o  o  o  o  o
+|  |        |           |  |  |  |  |        |  |  |  |  |     |        |  |  |     |     |
+o  o  o==o  o==o==o  o==o  o  o  o  o  o==o  o  o  o==o  o  o==o==o==o  o  o  o==o  o==o  o
+|  |  |  |                 |  |     |  |  |  |  |     |  |     |        |  |        |     |
+o  o  o  o==o==o  o==o==o  o  o  o==o  o  o  o  o  o==o==o==o==o==o==o  o  o  o==o  o  o==o
+|     |        |  |  |     |  |  |  |     |     |  |  |        |     |     |     |  |     |
+o  o  o  o  o==o==o  o  o==o  o  o  o==o==o  o==o  o  o  o==o  o  o==o==o  o==o  o  o==o  o
+|  |  |  |     |  |  |              |  |     |  |     |  |  |  |     |  |  |     |  |     |
+o==o  o  o==o  o  o  o  o==o  o==o==o  o  o  o  o==o  o==o  o  o  o==o  o  o==o  o  o==o  o
+|  |        |     |     |  |  |     |  |  |              |  |  |              |  |  |  |  |
+o  o==o  o  o  o==o==o==o  o  o  o==o  o==o==o  o==o  o==o  o  o==o  o==o==o==o  o==o  o==o
+|        |  |     |                 |  |  |  |  |  |  |     |  |     |  |  |  |  |  |  |  |
+o==o  o  o==o==o==o==o==o  o==o==o  o  o  o  o  o  o  o  o  o  o==o  o  o  o  o  o  o  o  o
+|  |  |  |           |  |  |        |  |  |  |     |     |     |        |        |  |     |
+o  o  o  o==o==o==o  o  o  o==o==o  o  o  o  o==o  o==o==o==o  o  o==o==o==o==o==o  o==o  o
+|     |  |  |        |     |           |     |     |  |        |     |     |  |  |        |
+o==o==o==o  o==o==o  o==o==o==o  o  o  o==o  o  o==o  o  o  o==o  o  o==o  o  o  o==o  o  o
+|           |                 |  |  |     |        |  |  |        |                    |  |
+o==o  o  o  o  o  o==o==o==o==o  o==o==o==o==o==o  o  o==o  o==o==o==o==o  o==o==o==o==o  o
+|     |  |     |           |  |     |     |        |           |        |  |  |           |
+o  o==o  o  o==o==o  o  o  o  o==o  o  o==o==o  o  o  o==o==o==o  o  o==o  o  o==o  o  o  o
+|  |  |  |        |  |  |                 |     |  |        |     |     |        |  |  |  |
+o  o  o==o==o  o==o  o==o==o  o==o==o==o==o==o  o==o==o  o==o==o  o  o  o  o==o==o  o==o  o
+|  |     |        |        |     |     |           |        |     |  |           |     |  |
+o==o  o==o==o==o==o  o==o==o  o==o==o  o==o==o==o==o==o  o==o==o==o==o==o  o==o==o  o==o==o
+|  |     |                 |     |  |     |  |        |     |        |           |        |
+o  o  o  o==o  o  o  o==o==o==o==o  o  o  o  o  o==o==o==o==o==o==o  o==o==o  o==o==o==o==o
+|     |        |  |  |     |  |  |     |           |        |              |        |     |
+o  o==o==o==o  o==o==o==o  o  o  o==o  o==o==o  o==o==o  o==o  o==o==o==o  o  o==o==o  o  o
+|     |  |  |  |  |        |     |  |  |     |                 |  |              |     |  |
+o  o==o  o  o  o  o==o==o  o  o  o  o  o==o  o==o  o==o  o==o==o  o  o==o==o==o  o==o  o==o
+|     |  |           |        |              |     |        |  |        |        |  |     |
+o  o  o  o==o  o==o  o  o==o==o  o  o  o==o==o==o==o  o==o  o  o  o==o==o  o  o==o  o==o  o
+|  |     |  |  |  |        |  |  |  |     |     |  |     |     |        |  |     |        |
+o  o  o  o  o==o  o  o  o==o  o  o==o  o==o==o  o  o  o  o  o  o==o  o==o==o==o==o  o==o  o
+|  |  |  |           |     |     |                 |  |  |  |  |                    |     |
+o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o  o
 ```
